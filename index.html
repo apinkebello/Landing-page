@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Manipulating the DOM</title>
+        <!-- Load Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  
+        <!-- Load Styles -->
+        <link href="css/styles.css" rel="stylesheet">
+        
+    </head>
+    <body>
+        
+        <header id="pageheader" class = "page__header">
+            <nav class = "navbar__menu">
+                <ul id="navbar__list"> 
+                <!-- <li> <a href= '#section1' >Section 1</a></li> 
+                <li class ="nav__active" > <a href= '#section2' >Section 2</a></li> 
+                <li> <a href= '#section3' >Section 3</a></li>  -->
+            </ul>
+            </nav>
+        </header>
+        <main>
+            <header class = "main__hero">
+                <h1 style="display: none;"> Landing Page</h1>
+                
+            </header>
+            <!-- To define the 3 sections -->
+            <section id="section1" data-nav="Section 1" class="my-sections active__class">
+                <div class = "landing__container">
+                    <h2> Section 1</h2>
+                    <p> This will be the content of this section </p>
+                </div>
+
+            </section>
+            <section id="section2" data-nav="Section 2" class="my-sections">
+                <div class="landing__container">
+                    <h2> Section 2</h2>
+                    <p> This will be the content of Section 2 </p>
+                </div>
+            </section>
+            <section id="section3" data-nav="Section 3" class="my-sections">
+                <div class = "landing__container">
+                    <h2> Section 3</h2>
+                    <p> This will be the content of Section 3</p>
+                </div>
+            </section>
+            <section id="section4" data-nav="Section 4" class="my-sections">
+                <div class = "landing__container">
+                    <h2> Section 4</h2>
+                    <p> This will be the content of Section 4</p>
+                </div>
+            </section>
+        </main>
+        <footer class = "page__footer">
+
+        </footer>
+        <script src="app.js"></script>
+    </body>
+</html>
