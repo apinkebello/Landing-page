@@ -3,7 +3,8 @@ Manipulating the DOM exercise.
 Exercise dynamically builds navigation.  
 
 Scrolls to anchors from navigation
-and highlights section in viewport upon scrolling.
+and highlights section in viewport upon scrolling.  
+
 Languages: HTML, CSS and JavaScript
 
 # Prerequisite
