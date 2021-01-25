@@ -43,7 +43,10 @@ const highlightActivePart = (active) =>{
     const navTag = document.createElement('a');
     navTag.href = '#' + id;
     navTag.textContent = content;
-    navList.addEventListener('click', function(){
+    navList.addEventListener('click', function(e){
+        e.preventDefault();
+        let currentSection = document.getElementById(id);
+        currentSection.scrollIntoView();
         highlightActivePart(this)
     });
     navList.appendChild(navTag);
